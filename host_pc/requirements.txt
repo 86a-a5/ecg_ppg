@@ -1,0 +1,8 @@
+# Acquisition GUI and signal processing (Python 3.10+, with Tcl/Tk)
+# Install: python -m pip install -r requirements.txt
+# Optional model dependencies: requirements-unicardio.txt
+pyserial>=3.5
+bleak==3.0.2
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7

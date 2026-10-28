@@ -1,0 +1,6 @@
+# Optional model environment. The acquisition GUI does not import torch.
+-r requirements.txt
+torch>=2.0
+PyYAML>=6.0
+scikit-learn>=1.2
+mat73>=0.65

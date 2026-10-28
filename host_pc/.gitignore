@@ -1,0 +1,91 @@
+# Python runtime, caches and local build products
+__pycache__/
+*.py[cod]
+*$py.class
+.venv*/
+venv/
+env/
+ENV/
+.Python
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.ipynb_checkpoints/
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Editor and operating-system state
+.idea/
+.vscode/
+*.code-workspace
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Acquisition records, generated figures/reports and old local snapshots
+# Keep raw/derived physiological recordings out of the code repository.
+# Synthetic examples can be regenerated with the supplied tools.
+records/
+outputs/
+archive/
+backup_before_*/
+link_validation/
+display_validation/
+bp_validation/
+*.csv
+*.tsv
+*.npy
+*.npz
+*.mat
+*.h5
+*.hdf5
+*.parquet
+*.edf
+*.bdf
+*.hea
+*.dat
+*.pkl
+*.pickle
+
+# Optional external model artifacts; src/ecg_ppg/models/ is source and is kept.
+base_model/
+checkpoints/
+weights/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.tflite
+
+# Local secrets and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+credentials*.json
+service-account*.json
+token*.json
+
+# Transient logs, scratch files and editor backups
+*.log
+*.tmp
+*.bak
+*.orig
+*.swp
+*.swo
+*~
